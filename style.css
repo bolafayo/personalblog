@@ -34,10 +34,10 @@ padding: 10px 20px;
     color: black;
 }
 #menuList {
- transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+ /* transition: max-height 0.3s ease-out, opacity 0.3s ease-out; */
   max-height: 0;
  overflow: hidden;
- opacity: 0;
+ /* opacity: 0; */
         }
  #menuList.open {
   max-height: 300px; 
@@ -55,10 +55,91 @@ padding: 10px 20px;
      color: #e62214;
      font-size: 35px;
      display: block;
-    
-
 }
-
+.personal img{
+     width: 100%;
+  height: 100%;
+  object-fit: cover;
+   object-position: 50% 50%;
+}
+.Thoughts h2{
+    margin: 30px;
+    font-size: 38px;
+     color: #414141;
+}
+.Thoughts img{
+       width: 100%;
+  height: 50%;
+  object-fit: cover;
+   object-position: 50% 50%;
+  padding: 0 30px;
+}
+.Thoughts h3{
+    text-align: start;
+    margin: auto ;
+    /* padding: 2px; */
+    font-size: 29px;
+    width: 250px;
+   color: #414141;
+     margin-bottom: 20px;
+}
+.Thoughts p{
+     color: #414141;
+     font-size: 18px;
+   margin: auto 20px;
+    text-align: start;
+   padding:0  35px;
+   line-height: 1.5;
+}
+.Thoughts button{
+  margin: auto 110px;
+align-items: center;
+height: 50px;
+width: 150px;
+margin-top: 30px;
+font-size: 16px;
+background-color: white;
+border-color: black;
+}
+.blog h2{
+    font-size: 37px;
+    margin: 20px 30px;
+     color: #414141;
+     margin-top: 20px;
+     font-weight: bold;
+}
+.blog img{
+    width: 100%;
+    height: 60%;
+    padding: 20px;
+    
+}
+.blog span{
+ margin-left: 30px;
+  color: #414141;
+}
+.blog h3{
+    text-align: start;
+    margin: 10px;
+    padding: 0 20px;
+     color: #414141;
+     line-height: 1.5;
+     font-size: 23px;
+}
+.blog p{
+    font-size: 16px;
+     text-align: start;
+     color: #414141;
+      padding: 0 25px;
+     
+}
+.blog h4{
+   margin: 10px 20px;
+    color: #414141;
+}
+hr{
+   margin: 20px;
+}
  @media screen and (min-width: 992px){
 
     /* *{
@@ -68,26 +149,25 @@ padding: 10px 20px;
     .nav-bar {
         display: inline;
     display: flex;
-  
-}
-    nav-bar ul {
-      
-    display: flex;
-    /* flex-direction: column; */
-    list-style: none;
-    gap: 30px;
-      padding: 10px 20px;
+       padding: 10px 20px;
     align-items: end;
     justify-content: space-between;
     margin-top: 30px;
-   
+  
+}
+    nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
 }
 .nav-bar ul li {
 display: inline-block;
 line-height: 10px;
-margin: 0 61px;
-padding: 20px;
-margin-left: 40px;
+margin: -20px 60px;
+padding: 0;
+}
+.nav-bar h1{
+    font-size: 42px;
 }
 
 .nav-bar a {
@@ -102,5 +182,62 @@ margin-left: 40px;
 .menu-icon i {
     color: #e62214;
     font-size: 30px;
+}
+.personals{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 90px;
+}
+.Thoughts img{
+  padding: 20px 100px;
+  height: 50%;
+  margin-top: 20px;
+}
+.Thoughts h2{ 
+   text-align: center;
+    font-weight: 100;
+    color: #414141;
+    font-size: 30px;
+}
+.personal img{
+  height: 80%;
+ 
+
+}
+.Thoughts h3{
+    width: 100%;
+    font-weight: 100;
+    text-align: center;
+
+}
+.Thoughts p{
+    width: 72%;
+    text-align: start;
+    margin: auto ;
+   
+}
+.Thoughts button{
+  margin: 80px 250px;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+    align-items: center;
+    padding:0 90px;
+    margin: 10px;
+}
+.blog img{
+    width: 90%;
+    height: 100%;
+    padding: 70px;
+    
+}
+.blog h2{
+    font-size: 54px;
+    font-weight: 100;
+   margin-top: -150px;
+   margin-left: 170px;
+   margin-bottom: -40px;
 }
  }
