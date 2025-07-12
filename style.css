@@ -45,14 +45,14 @@ padding: 10px 20px;
  }
 .nav-bar h1{
     font-size: 37px;
-    color: #e62214;
+    color: #414141;
 }
 .nav-bar p{
     font-size: 17px;
     margin-top: 8px;
 }
 .menu-icon i{
-     color: #e62214;
+    color: #414141;
      font-size: 35px;
      display: block;
 }
@@ -128,12 +128,14 @@ border-color: black;
      line-height: 1.5;
      font-size: 23px;
 }
-.blog p{
+.blog a {
+   text-decoration: none;
     font-size: 16px;
-     text-align: start;
      color: #414141;
-      padding: 0 25px;
-     
+     margin: 10px 50px; 
+}
+.blog a:hover {
+      color: #322e2e;
 }
 .blog h4{
    margin: 10px 20px;
@@ -248,7 +250,7 @@ padding: 0;
   width: 400px;
   margin-top: 20px;
 }
-.blog p{
+.blog a{
     width: 400px;
     line-height: 1.5;
 }
