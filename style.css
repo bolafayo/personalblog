@@ -214,6 +214,66 @@ height: 100%;
  width: 100%;
     height: 100%;
 }
+.newsletter-section h2{
+ text-align: center;
+    font-size: 45px;
+    width: 300px;
+    margin: 30px;
+      color: #322e2e;
+}
+.newsletter-section p{
+    width: 280px;
+     color: #322e2e;
+     text-align: center;
+     font-size: 24px;
+     margin: 50px;
+}
+.newsletter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#newsletter-form label {
+  font-weight: bold;
+  color: #444;
+  font-size: 20px;
+  margin: 20px;
+}
+checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+#newsletter-form input[type="text"],
+#newsletter-form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #322e2e;
+  margin: 10px;
+  font-size: 30px;
+}
+#newsletter-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto; 
+  padding: 20px 24px;
+  background: white;
+  border-color: black;
+  width: 200px;
+  color: black;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#newsletter-form button:hover {
+  background: black;
+  color: white;
+}
  @media screen and (min-width: 992px){
 
     /* *{
@@ -372,4 +432,33 @@ font-size: 53px;
     padding: 0 40px;
     gap: 18px;
 }
+.newsletter-section h2{
+    width: 90%;
+    font-size: 60px;
+      color: #322e2e;
+}
+.newsletter-section p{
+    width: 90%;
+     color: #322e2e; 
+}
+.newsletter{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    padding:  70px;
+}
+#newsletter-form input[type="text"],
+#newsletter-form input[type="email"] {
+ padding: 1px;
+  margin: 30px;
+  font-size: 30px;
+}
+#newsletter-form input[type="email"] {
+   width: 900px;
+}
+#newsletter-form button {
+    width: 300px;
+    padding: 10px;
+  
+}
+
  }
