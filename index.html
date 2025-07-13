@@ -140,6 +140,32 @@
                  <div><img src="./asses/img/img22.jpg" alt=""></div>
     </div>
     </section>
+    <section class="newsletter-section">
+        <div>
+             <h2>Join the Conversations</h2>
+        <p>Get the content you need, just when you need it</p>
+        </div>
+        <div class="newsletter">
+              <form id="newsletter-form" onsubmit="handleSubscribe(event)">
+    <label for="firstName">First Name*</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name*</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="subscribeConsent" required>
+      <label for="subscribeConsent">Yes, subscribe me to your newsletter.*</label>
+    </div>
+
+    <button type="submit">Subscribe</button>
+  </form>
+        </div>
+      
+    </section>
   
   
 </main>
