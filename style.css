@@ -20,24 +20,25 @@ padding: 10px 20px;
     gap: 20px;
     list-style: none;
     font-size: 19px;
-    /* overflow: hidden; */
+    background-color: white;
 }
-.nav-bar:hover li a{
-      color: #e62214;
+.nav-bar:hover  a{
+      color: black;
 }
 
 .nav-bar ul li{
     padding: 20px;
+    background-color: white;
 }
 .nav-bar a{
     text-decoration: none;
     color: black;
 }
 #menuList {
- /* transition: max-height 0.3s ease-out, opacity 0.3s ease-out; */
+ transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
   max-height: 0;
- overflow: hidden;
- /* opacity: 0; */
+ /* overflow: hidden; */
+ opacity: 0;
         }
  #menuList.open {
   max-height: 300px; 
@@ -132,7 +133,9 @@ border-color: black;
    text-decoration: none;
     font-size: 16px;
      color: #414141;
-     margin: 10px 50px; 
+     margin: 10px 30px; 
+   display: flex;
+    
 }
 .blog a:hover {
       color: #322e2e;
@@ -186,7 +189,11 @@ height: 100%;
      padding: 0 10px;
      margin: 10px 30px;
 }
+.about a{
+    text-decoration: none;
+}
 .about button{
+    
     margin: 40px auto;
     justify-content: center;
     font-size: 17px;
@@ -226,41 +233,45 @@ height: 100%;
      color: #322e2e;
      text-align: center;
      font-size: 24px;
-     margin: 50px;
+     margin: 30px;
 }
 .newsletter{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 #newsletter-form label {
   font-weight: bold;
-  color: #444;
-  font-size: 20px;
-  margin: 20px;
+  color: #625d5d;
+  font-size: 18px;
+  margin: 40px;
 }
-checkbox-group {
+.checkbox-group {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
+  
   
 }
 #newsletter-form input[type="text"],
 #newsletter-form input[type="email"] {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #211616;
   border-radius: 6px;
-  font-size: 1rem;
   color: #322e2e;
   margin: 10px;
-  font-size: 30px;
+  font-size:  8px;
+  width: 400px;
 }
 #newsletter-form button {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 50px auto; 
-  padding: 20px 24px;
+    margin: 0 auto; 
+  padding: 15px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: white;
   border-color: black;
   width: 200px;
@@ -274,31 +285,60 @@ checkbox-group {
   background: black;
   color: white;
 }
+
+#newsletter-form textarea {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  /* resize: vertical; */
+  width: 100%;
+  max-width: 350px;
+  margin: 20px;
+}
+.main-footer{
+   background-color: black;
+   color: white;
+}
+.main-footer  i{
+    font-size: 34px;
+    margin: 15px;
+    color: white;
+}
+.main-footer h3{
+    font-size: 40px;
+}
+.main-footer p{
+    margin: 20PX;
+    font-size: 20px;
+}
+.inside-footer h2{
+    font-size: 34px;
+    margin: 10px;
+}
+
+
+
  @media screen and (min-width: 992px){
 
     /* *{
         border: 1px solid;
     } */
 
-    .nav-bar {
-        display: inline;
-    display: flex;
-       padding: 10px 20px;
-    align-items: end;
-    justify-content: space-between;
-    margin-top: 30px;
-  
-}
-    nav-bar ul {
-    display: flex;
+   
+    .nav-bar ul {
+        position: static;
     list-style: none;
     gap: 30px;
+    display: flex;
+   flex-direction: row;
+   text-align: left;
+    background-color: transparent;
 }
 .nav-bar ul li {
-display: inline-block;
-line-height: 10px;
-margin: -20px 60px;
+color: black;
 padding: 0;
+display: inline-block;
 }
 .nav-bar h1{
     font-size: 42px;
@@ -311,11 +351,6 @@ padding: 0;
 
 .menu-icon {
     display: none;
-}
-
-.menu-icon i {
-    color: #e62214;
-    font-size: 30px;
 }
 .personals{
     display: grid;
@@ -451,14 +486,26 @@ font-size: 53px;
  padding: 1px;
   margin: 30px;
   font-size: 30px;
+  width: 300px;
+ 
 }
 #newsletter-form input[type="email"] {
-   width: 900px;
+  width: 800px;
 }
 #newsletter-form button {
     width: 300px;
     padding: 10px;
   
+}
+.main-footer {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.footer{
+    margin: 60px;
+}
+.newsletter-form textarea{
+   max-width: 600px;
 }
 
  }
