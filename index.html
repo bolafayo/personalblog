@@ -15,8 +15,8 @@
     </div>
     <ul id="menuList">
         <li><a href="index.html">Home</a></li>
-         <li><a href="blog.html">Blog</a></li>
-          <li><a href="abouthtml">About</a></li>
+         <li><a href="index.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
            <li><a href="contact.html">Contact</a></li>
     </ul>
     <div  class="menu-icon" id="menuIcon"> 
@@ -37,67 +37,11 @@
            <a href="blog.html">
   <button> All Posts</button>
 </a>
+ 
        
     </div>
     </section>
-    <section class="blog">
-        <h2>Recent posts</h2>
-        <div class="blogs">
-                <div>
-            <img src="./asses/img/img4.jpg" alt="">
-             </div>
-             <div>
-                  <span>May 1, 2023</span> • <span>2 min read</span>
-             <h3>The one thing I would tell to my 16 year old self</h3>
-            <a href="firstpost.html">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</a> 
-              <hr>
-             <h4>0 comments</h4>
-
-             </div>
-         <div>
-            <img src="./asses/img/img11.jpg" alt="">
-             </div>
-             <div>
-                
-             <span>May 1, 2023</span> • <span>1 min read</span>
-             <h3>Can’t stop scrolling through your friends’ feed?</h3>
-            <a href="secondpost.html">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</a> 
-              <hr>
-             <h4>0 comments</h4>
-             </div>
-         <div>
-            <img src="./asses/img/img10.jpg" alt="">
-             </div>
-             <div>
-                  <span>May 1, 2023</span> • <span>2 min read</span>
-             <h3>How I stopped being afraid of being weak</h3>
-           
-               <a href="thirdpost.html"> Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</a>
-              <hr>
-             <h4>0 comments</h4>
-             </div>
-         <div>
-            <img src="./asses/img/img8 (2).jpg" alt="">
-               </div>
-               <div>
-                 <span>May 1, 2023</span> • <span>1 min read</span>
-             <h3>5 great side effects of running with music</h3>
-             <a href="forthpost.html">a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</a> 
-             <hr>
-             <h4>0 comments</h4>
-               </div>
-         <div>
-            <img src="./asses/img/img9.jpg" alt="">
-             </div>
-             <div>
-                  <span>May 1, 2023</span> • <span>2 min read</span>
-             <h3>5 things that would make you sleep better</h3>
-            <a href="fifthpost.html">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</a> 
-             <hr>
-             <h4>0 comments</h4>
-             </div>
-        </div>
-    
+    <div id="blog-container"  class="blog-grid"></div>
     </section>
     <section class="quote">
         <div>
@@ -124,7 +68,7 @@
  Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.
   I’m a great place for you to tell a story and let your users know a little more about you.
   </p>
-    <a href="abouthtml">
+    <a href="about.html">
   <button type="button"> Read More</button>
 </a>
         </div>
@@ -153,13 +97,13 @@
         <div class="newsletter">
               <form id="newsletter-form" onsubmit="handleSubscribe(event)">
     <label for="firstName">First Name*</label>
-    <input type="text" id="firstName" name="firstName" required>
+    <input type="text" id="firstName" name="firstName" required> <hr>
 
     <label for="lastName">Last Name*</label>
-    <input type="text" id="lastName" name="lastName" required>
+    <input type="text" id="lastName" name="lastName" required><hr>
 
     <label for="email">Email*</label>
-    <input type="email" id="email" name="email" required>
+    <input type="email" id="email" name="email" required><hr>
 
     <div class="checkbox-group">
       <input type="checkbox" id="subscribeConsent" required>
@@ -187,13 +131,13 @@
         <p>Ask my anything</p>
          <form id="newsletter-form" onsubmit="handleSubscribe(event)">
     <label for="firstName">First Name*</label>
-    <input type="text" id="firstName" name="firstName" required>
+    <input type="text" id="firstName" name="firstName" required> 
 
     <label for="lastName">Last Name*</label>
-    <input type="text" id="lastName" name="lastName" required>
+    <input type="text" id="lastName" name="lastName" required> 
 
     <label for="email">Email*</label>
-    <input type="email" id="email" name="email" required>
+    <input type="email" id="email" name="email" required> 
 
      <textarea id="message" name="message" placeholder="Leave a message "></textarea>
     <button type="submit">Subscribe</button>
