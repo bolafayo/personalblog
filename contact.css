@@ -170,27 +170,59 @@ button {
     margin: 20px 320px;
     font-size: 30px;
 }
-.newsletter{
-    display: grid;
-    grid-template-columns: 1fr  ;
-    padding:  70px;
+ .newsletter-section h2 {
+        width: 90%;
+        font-size: 60px;
+        color: #322e2e;
+    }
+
+    .newsletter-section p {
+        width: 90%;
+        color: #322e2e;
+    }
+
+    .newsletter { 
+        padding:  0 270px;
+    }
+
+.newsletter hr{
+   width: 700px;
 }
-#newsletter-form input[type="text"],
-#newsletter-form input[type="email"] {
- padding: 1px;
-  margin: 30px;
-  font-size: 30px;
-  width: 300px;
- 
-}
-#newsletter-form input[type="email"] {
-  width: 800px;
-}
-#newsletter-form button {
-    width: 300px;
-    padding: 10px;
-  
-}
+    #newsletter-form input[type="text"],
+    #newsletter-form input[type="email"] {
+          display: grid;
+     grid-template-columns: 1fr;
+
+        padding: 1px;
+        /* margin: 30px; */
+        font-size: 30px;
+        width: 400px;
+
+    }
+
+   
+
+    #newsletter-form button {
+        width: 200px;
+        padding: 10px;
+        margin-left: 90px;
+
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer {
+        margin: 60px;
+    }
+
+    .newsletter-form textarea {
+        max-width: 600px;
+    }
+
+
 .main-footer {
 display: grid;
 grid-template-columns: 1fr 1fr;
