@@ -262,12 +262,7 @@ border: none;
 
 
 
- @media screen and (min-width: 992px){
- /* *{
-        border: 1px solid;
-    } */
-
-  
+ @media screen and (min-width: 992px){  
     .nav-bar ul {
     position: static;
         list-style: none;
@@ -342,9 +337,7 @@ padding: 0;
     #newsletter-form input[type="email"] {
           display: grid;
      grid-template-columns: 1fr;
-
         padding: 1px;
-        /* margin: 30px; */
         font-size: 30px;
         width: 400px;
 
