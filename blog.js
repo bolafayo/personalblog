@@ -93,16 +93,15 @@ function renderFullBlog(blog) {
       <img src="${blog.image}" alt="${blog.title}" />
         <div class="meta">
           👤 ${blog.author || "Admin"} • ${blog.date} • ${blog.readTime}
-           </div>
+          
           <div class="blog-content">
         <h1>${blog.title}</h1>
          <p class="blog-description">${blog.description} </p>
-         <p class="blog-content">${blog.content}</p>
         <hr>
            <div class="extras">
           📺 ${blog.hasMedia ? "Media Included" : "Text Only"} • 
           ❤️ ${formatNumber(blog.likes)} Likes • 
-       
+        </div>
       </div>
      </div>
     </div>
