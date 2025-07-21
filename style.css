@@ -42,7 +42,6 @@
 #menuList {
     transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
     max-height: 0;
-    /* overflow: hidden; */
     opacity: 0;
 }
 
@@ -382,12 +381,6 @@ border: none;
 
 
 @media screen and (min-width: 992px) {
-/* 
-    *{
-        border: 1px solid;
-    } */
-
-
     .nav-bar ul {
         position: static;
         list-style: none;
@@ -397,7 +390,6 @@ border: none;
         justify-content: space-between;
       
         padding: 20px 160px; 
-        /* text-align: left; */
         background-color: transparent;
     }
 
@@ -489,7 +481,6 @@ border: none;
 
     hr {
         width: 400px;
-        /* margin: 20px; */
     }
 
     .quote {
@@ -568,7 +559,6 @@ border: none;
      grid-template-columns: 1fr;
 
         padding: 1px;
-        /* margin: 30px; */
         font-size: 30px;
         width: 400px;
 
@@ -577,8 +567,9 @@ border: none;
    
 
     #newsletter-form button {
-        width: 300px;
+        width: 100px;
         padding: 10px;
+        margin-left: 150px;
 
     }
 
