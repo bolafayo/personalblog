@@ -101,7 +101,6 @@ button:hover {
   font-size: 20px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  /* resize: vertical; */
   width: 100%;
   max-width: 350px;
   margin: 20px;
@@ -162,10 +161,6 @@ button {
   cursor: pointer;
 }
 
-/* button:hover {
-  background: black;
-  color: white;
-} */
 .action h4{
     margin: 20px 320px;
     font-size: 30px;
@@ -194,7 +189,6 @@ button {
      grid-template-columns: 1fr;
 
         padding: 1px;
-        /* margin: 30px; */
         font-size: 30px;
         width: 400px;
 
