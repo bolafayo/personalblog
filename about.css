@@ -38,7 +38,6 @@ a{
 #menuList {
  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
   max-height: 0;
- /* overflow: hidden; */
  opacity: 0;
         }
  #menuList.open {
@@ -164,7 +163,6 @@ border: none;
         justify-content: space-between;
       
         padding: 20px 160px; 
-        /* text-align: left; */
         background-color: transparent;
 }
 .nav-bar ul li {
@@ -195,8 +193,9 @@ display: inline-block;
 }
 .about img{
     background-color: rgb(240 209 201 / 32%); 
-    width: 70%;
-    padding: 110px 130px;
+    width: 100%;
+    padding: 110px 50px;
+  
     height: 70%;
 }
 .about h2{
@@ -236,7 +235,6 @@ display: inline-block;
      grid-template-columns: 1fr;
 
         padding: 1px;
-        /* margin: 30px; */
         font-size: 30px;
         width: 400px;
 
