@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+display: flex;
+padding: 10px 20px;
+  align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nav-bar ul{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 19px;
+}
+.nav-bar:hover li{
+      color: #e62214;
+}
+
+.nav-bar ul li{
+    padding: 20px;
+    background-color: white;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+#menuList {
+ transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  max-height: 0;
+ opacity: 0;
+        }
+ #menuList.open {
+  max-height: 300px; 
+ opacity: 1;
+ }
+.nav-bar h1{
+    font-size: 37px;
+    color: #414141;
+}
+.nav-bar p{
+    font-size: 17px;
+    margin-top: 8px;
+}
+.menu-icon i{
+    font-size: 24px;
+}
+a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.blog-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+     
+    }
+
+    .blog-post {
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+    }
+
+    .blog-container img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .blog-container h2 {
+      margin: 0 0 10px;
+    color: #333;
+    }
+
+    .blog-container .meta {
+      font-size: 19px;
+      margin: 10px;
+      color: #6b7280;
+      margin-bottom: 10px;
+    
+    }
+
+    .blog-container .description {
+        line-height: 1.5;
+         color: #6b7280;
+      font-size: 1em;
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+  .blog-container p{
+        line-height: 1.5;
+         color: #6b7280;
+      font-size: 19px;
+     margin: 10px;
+    }
+    .blog-container h2{
+        line-height: 1.5;
+         color: #6b7280;
+      font-size: 19px;
+     margin: 10px;
+    }
+    .blog-post .comments {
+      font-size: 0.9em;
+      color: #9ca3af;
+    }
+    .blog-link {
+  text-decoration: none;      
+  color: inherit;             
+  display: block;             
+  transition: transform 0.2s ease;
+}
+
+.blog-link:hover {
+  transform: scale(1.02);     
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.extras {
+    margin: 10px 10px;
+}
+
+#comment-section {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  margin: 40px;
+}
+#comment-list p {
+  padding: 5px 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+button {
+ margin: 0 auto;
+  padding: 0.5rem 1rem;
+  background:  #625d5d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.newsletter-section h2 {
+    text-align: center;
+    font-size: 45px;
+    width: 300px;
+    margin: 30px;
+    color: #322e2e;
+}
+
+.newsletter-section p {
+    width: 280px;
+    color: #322e2e;
+    text-align: center;
+    font-size: 24px;
+    margin: 30px;
+}
+
+
+#newsletter-form label {
+    font-weight: bold;
+    color: #625d5d;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   padding: 30px;
+
+
+}
+
+#newsletter-form input[type="text"],
+#newsletter-form input[type="email"] {
+    padding: 5px;
+border: none;
+  border-color: none;
+  width: 240px;
+    color: #322e2e;
+    margin: 10px;
+   
+  
+}
+
+#newsletter-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background: white;
+    border-color: rgb(206, 206, 206);
+    width: 200px;
+    color: black;
+    font-size: 18px;
+    border-radius: px;
+    cursor: pointer;
+}
+
+#newsletter-form button:hover {
+    background: black;
+    color: white;
+}
+
+#newsletter-form textarea {
+    padding: 10px;
+    font-size: 20px;
+    border: px solid #ccc;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px;
+}
+
+.main-footer {
+    background-color: black;
+    color: white;
+}
+
+.main-footer i {
+    font-size: 34px;
+    margin: 15px;
+    color: white;
+}
+
+.main-footer h3 {
+    font-size: 40px;
+}
+
+.main-footer p {
+    margin: 20PX;
+    font-size: 20px;
+}
+
+.inside-footer h2 {
+    font-size: 34px;
+    margin: 10px;
+}
+
+
+
+
+
+
+ @media screen and (min-width: 992px){  
+    .nav-bar ul {
+    position: static;
+        list-style: none;
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 120px; 
+        background-color: transparent;
+ 
+}
+.nav-bar ul li {
+display: inline-block;
+line-height: 10px;
+margin: -20px 60px;
+padding: 0;
+}
+.nav-bar h1{
+    font-size: 42px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-icon {
+    display: none;
+}
+  .blog-container img {
+      width: 100%;
+      max-height: 100%;
+     height: 100%;
+    
+      object-fit: cover;
+      margin-bottom: 5px;
+    }
+ .blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+      background-color: #fff;
+      padding: 10px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+#menuList{
+        opacity: 100;
+    }
+     .newsletter-section h2 {
+        width: 90%;
+        font-size: 60px;
+        color: #322e2e;
+    }
+
+    .newsletter-section p {
+        width: 90%;
+        color: #322e2e;
+    }
+
+    .newsletter { 
+        padding:  0 270px;
+    }
+
+.newsletter hr{
+   width: 700px;
+}
+    #newsletter-form input[type="text"],
+    #newsletter-form input[type="email"] {
+          display: grid;
+     grid-template-columns: 1fr;
+        padding: 1px;
+        font-size: 30px;
+        width: 400px;
+
+    }
+    #newsletter-form button {
+        width: 200px;
+        padding: 10px;
+        margin-left: 90px;
+
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer {
+        margin: 60px;
+    }
+
+    .newsletter-form textarea {
+        max-width: 600px;
+    }
+
+    
+
+ }
+ 

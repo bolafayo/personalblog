@@ -1,0 +1,234 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#comment-section {
+  margin-top: 30px;
+}
+
+#comment-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#comment-list li {
+  background: #eef;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#comment-input {
+  width: 75%;
+  padding: 30px;
+  margin: 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+.action h4{
+    margin: 20px;
+    font-size: 30px;
+}
+.newsletter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+#newsletter-form label {
+  font-weight: bold;
+  color: #625d5d;
+  font-size: 18px;
+  margin: 40px;
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+  
+}
+#newsletter-form input[type="text"],
+#newsletter-form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #211616;
+  border-radius: 6px;
+  color: #322e2e;
+  margin: 10px;
+  font-size:  8px;
+  width: 300px;
+}
+#newsletter-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; 
+  padding: 15px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgb(33, 30, 30);
+  border-color: black;
+  width: 200px;
+  color: black;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#newsletter-form button:hover {
+  background: rgb(47, 32, 32);
+  color: white;
+}
+
+#newsletter-form textarea {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px;
+}
+.main-footer{
+   background-color: black;
+   color: white;
+}
+.main-footer  i{
+    font-size: 34px;
+    margin: 15px;
+    color: white;
+}
+.main-footer h3{
+    font-size: 40px;
+}
+.main-footer p{
+    margin: 20PX;
+    font-size: 20px;
+}
+.inside-footer h2{
+    font-size: 34px;
+    margin: 10px;
+}
+
+ @media screen and (min-width: 992px){
+    comment-section {
+  margin-top: 30px;
+}
+
+#comment-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#comment-list li {
+  background: #eef;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#comment-input {
+  width: 45%;
+  padding: 30px;
+  margin: 20px 360px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+ 
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action h4{
+    margin: 20px 320px;
+    font-size: 30px;
+}
+ .newsletter-section h2 {
+        width: 90%;
+        font-size: 60px;
+        color: #322e2e;
+    }
+
+    .newsletter-section p {
+        width: 90%;
+        color: #322e2e;
+    }
+
+    .newsletter { 
+        padding:  0 270px;
+    }
+
+.newsletter hr{
+   width: 700px;
+}
+    #newsletter-form input[type="text"],
+    #newsletter-form input[type="email"] {
+          display: grid;
+     grid-template-columns: 1fr;
+
+        padding: 1px;
+        font-size: 30px;
+        width: 400px;
+
+    }
+
+   
+
+    #newsletter-form button {
+        width: 200px;
+        padding: 10px;
+        margin-left: 90px;
+
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer {
+        margin: 60px;
+    }
+
+    .newsletter-form textarea {
+        max-width: 600px;
+    }
+
+
+.main-footer {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.footer{
+    margin: 60px;
+}
+.newsletter-form textarea{
+   max-width: 600px;
+}
+
+ 
+
+ 
+ }

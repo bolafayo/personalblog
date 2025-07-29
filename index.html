@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdn.jsdelivr.net/npm/vanillatoasts/vanillatoasts.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillatoasts/vanillatoasts.css">
+</head>
+<body>
+<nav class="nav-bar">
+    <div>
+         <h1>Inner Pieces</h1>
+    <p>Thoughts on lifestyle & Mental Health</p>
+    </div>
+    <ul id="menuList">
+        <li><a href="index.html">Home</a></li>
+         <li><a href="index.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div  class="menu-icon" id="menuIcon"> 
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</nav>
+<main>
+    <section class="personals">
+  <div class="personal">
+        <img src="./asses/img/img1 (2).jpg" alt="">
+    </div>
+    <div class="Thoughts">
+        <h2>My Thoughts</h2>
+        <img src="./asses/img/img3.jpg" alt="">
+        <h3>Detoxing my social media feed</h3>
+        <p>  Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+          
+           <a href="blog.html">
+  <button> All Posts</button>
+</a>
+ 
+       
+    </div>
+    </section>
+    <div id="blog-container"  class="blog-grid"></div>
+    </section>
+    <section class="quote">
+        <div>
+            <h2>
+                ” I always get to where I’m going by walking away from where I have been.”
+                <p> ― Winnie the Pooh, A.A. Milne</p>
+            </h2>
+        </div>
+        <div>
+            <img src="./asses/img/img12.jpg" alt="">
+        </div>
+    </section>
+    <section class="about">
+        <div>
+            <img src="./asses/img/img13.jpg" alt="">
+        </div>
+        <div>
+            <h2> Hi, I’m Dena</h2>
+            <p>A mental health blogger. Passionate about sharing thoughts and information on everything that makes my days better.
+
+​</p>
+  <p>
+    I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+ Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.
+  I’m a great place for you to tell a story and let your users know a little more about you.
+  </p>
+    <a href="about.html">
+  <button type="button"> Read More</button>
+</a>
+        </div>
+       
+    </section>
+    <section class="section-smile">
+        <h2>Always Makes Me Smile</h2>
+  <div class="smile">
+        <div><img src="./asses/img/img14.jpg" alt=""></div>
+         <div><img src="./asses/img/img4.jpg" alt=""></div>
+          <div><img src="./asses/img/img16.jpg" alt=""></div>
+           <div><img src="./asses/img/img17.jpg" alt=""></div>
+            <div><img src="./asses/img/img18.jpg" alt=""></div>
+             <div><img src="./asses/img/img19.jpg" alt=""></div>
+              <div><img src="./asses/img/img20.jpg" alt=""></div>
+               <div><img src="./asses/img/img21.jpg" alt=""></div>
+                <div><img src="./asses/img/img15.jpg" alt=""></div>
+                 <div><img src="./asses/img/img22.jpg" alt=""></div>
+    </div>
+    </section>
+    <section class="newsletter-section">
+        <div>
+             <h2>Join the Conversations</h2>
+        <p>Get the content you need, just when you need it</p>
+        </div>
+        <div class="newsletter">
+              <form id="newsletter-form" onsubmit="handleSubscribe(event)">
+    <label for="firstName">First Name*</label>
+    <input type="text" id="firstName" name="firstName" required> <hr>
+
+    <label for="lastName">Last Name*</label>
+    <input type="text" id="lastName" name="lastName" required><hr>
+
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required><hr>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="subscribeConsent" required>
+      <label for="subscribeConsent">Yes, subscribe me to your newsletter.*</label>
+    </div>
+
+    <button type="submit">Subscribe</button>
+  </form>
+        </div>   
+    </section>
+</main>
+<footer class="main-footer">
+    <div class="footer">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <h3>Inner pieces</h3>
+    <p> 123-456-7890</p>
+    <p> info@mysite.com</p>
+    <p>© 2035 by Inner Pieces.</p>
+    <p>  Powered and secured by Wix</p>
+    </div>
+    <div class="inside-footer">
+        <h2>Contact</h2>
+        <p>Ask my anything</p>
+         <form id="newsletter-form" onsubmit="handleSubscribe(event)">
+    <label for="firstName">First Name*</label>
+    <input type="text" id="firstName" name="firstName" required> 
+
+    <label for="lastName">Last Name*</label>
+    <input type="text" id="lastName" name="lastName" required> 
+
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required> 
+
+     <textarea id="message" name="message" placeholder="Leave a message "></textarea>
+    <button type="submit">Subscribe</button>
+  </form>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

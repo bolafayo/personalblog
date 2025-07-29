@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fifthpost.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <nav class="nav-bar">
+    <div>
+         <h1>Inner Pieces</h1>
+    <p>Thoughts on lifestyle & Mental Health</p>
+    </div>
+    <ul id="menuList">
+        <li><a href="index.html">Home</a></li>
+         <li><a href="blog.html">Blog</a></li>
+          <li><a href="abouthtml">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div  class="menu-icon" id="menuIcon"> 
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</nav>
+<a href="./index.html">All Post</a>
+
+<section>
+    <div class="blog">
+          <span>
+          <i class="fa-solid fa-circle-user"></i> Admin May 1, 2023</span> • <span>1 min read</span>
+            </div>
+            <div class="share-menu">
+  <button id="share-toggle" onclick="toggleShare()" title="Share Options">
+    <i class="fas fa-ellipsis-v"></i>
+  </button>
+  <div id="share-icons" class="share-icons hidden">
+    <a href="#" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+    <a href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+    <a href="#" title="Copy Link" onclick="copyLink()"><i class="fas fa-link"></i></a>
+  </div>
+</div>
+<div class="action">
+  <h2>5 things that would make you sleep better</h2>
+  <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading.</p>
+  <img src="./asses/img/img9.jpg" alt="">
+  <p>Welcome to your blog post. Use this space to connect with your readers and potential customers in a way that’s current and interesting. Think of it as an ongoing conversation where you can share updates about business, trends, news, and more. </p>
+  <h3>Design with Ease</h3>
+  <p>Every layout comes with the latest social features built in. Readers will be able to easily share posts on social networks like Facebook and Twitter, view how many people have liked a post, made comments and more. With the Wix, building your online community has never been easier.</p>
+  <h3>Stun Your Readers </h3>
+  <p>Blogging gives your site a voice, so let your business’ personality shine through. Are you a creative agency? Go wild with original blog posts about recent projects, cool inspirational ideas, or what your company culture is like. Add images, and videos to really spice it up, and pepper it with slang to keep readers interested. Are you a programmer? Stay on the more technical side by offering weekly tips, tricks, and hacks that show off your knowledge of the industry. No matter what type of business you have, one thing is for sure - blogging gives your business the opportunity to be heard in a way in a different and unconventional way.  </p>
+  <h3>Get Inspired</h3>
+  <p>To keep up with all things Wix, including website building tips and interesting articles, head over to to the Wix Blog. You may even find yourself inspired to start crafting your own blog, adding unique content, and stunning images and videos. Start creating your own blog now. Good luck!</p>
+  <hr>
+   <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></i></a>
+    <a href="#" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="#" title="Copy Link" onclick="copyLink()"><i class="fas fa-link"></i></a>
+    <hr>
+    <span>2,211 views</span>
+     <button onclick="toggleLike()" id="like-btn">
+      <i class="fa-regular fa-heart"></i> <span id="like-count">0</span> 
+    </button>
+     <hr>
+
+    <h4>Comments</h4>
+    
+      <ul id="comment-list"></ul> 
+    <div id="comment-section">
+      <input type="text" id="comment-input" placeholder="Write a comment...">
+      <button onclick="addComment()">Post Comment</button>
+</div>
+</section>
+<footer class="main-footer">
+    <div class="footer">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <h3>Inner pieces</h3>
+    <p> 123-456-7890</p>
+    <p> info@mysite.com</p>
+    <p>© 2035 by Inner Pieces.</p>
+    <p>  Powered and secured by Wix</p>
+    </div>
+    <div class="inside-footer">
+        <h2>Contact</h2>
+        <p>Ask my anything</p>
+         <form id="newsletter-form" onsubmit="handleSubscribe(event)">
+    <label for="firstName">First Name*</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name*</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required>
+
+     <textarea id="message" name="message" placeholder="Leave a message "></textarea>
+    <button type="submit">Subscribe</button>
+  </form>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./app.js"></script>
+</body>
+</html>

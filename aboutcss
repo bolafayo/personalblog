@@ -1,0 +1,254 @@
+.nav-bar{
+display: flex;
+padding: 10px 20px;
+  align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nav-bar ul{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 19px;
+    background-color: white;
+}
+a{
+  text-decoration: none;
+  color: #414141;
+  font-size: 30px;
+  margin: 40px;
+}
+.nav-bar:hover  a{
+      color: black;
+}
+
+.nav-bar ul li{
+    padding: 20px;
+    background-color: white;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+#menuList {
+ transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  max-height: 0;
+ /* overflow: hidden; */
+ opacity: 0;
+        }
+ #menuList.open {
+  max-height: 300px; 
+ opacity: 1;
+ }
+.nav-bar h1{
+    font-size: 37px;
+    color: #120202;
+}
+.nav-bar p{
+    font-size: 17px;
+    margin-top: 8px;
+}
+.menu-icon i{
+    color: #414141;
+     font-size: 35px;
+     display: block;
+}
+
+.about{
+ background-color: rgb(240 209 201 / 32%);
+}
+.about img{
+    width: 100%;
+    height: 100%;
+   
+
+}
+.about h2{
+    text-align: center;
+    font-size: 29px;
+    margin: 30px;
+      color: #322e2e;
+}
+.about p{
+    width: 320px;
+    text-align: center;
+     color: #322e2e;
+     font-size: 20px;
+     padding: 0 10px;
+     margin: 10px 30px;
+}
+
+.newsletter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+#newsletter-form label {
+  font-weight: bold;
+  color: #625d5d;
+  font-size: 18px;
+  margin: 40px;
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+  
+}
+#newsletter-form input[type="text"],
+#newsletter-form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #211616;
+  border-radius: 6px;
+  color: #322e2e;
+  margin: 10px;
+  font-size:  8px;
+  width: 300px;
+}
+#newsletter-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; 
+  padding: 15px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: white;
+  border-color: black;
+  width: 200px;
+  color: black;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#newsletter-form button:hover {
+  background: black;
+  color: white;
+}
+
+#newsletter-form textarea {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  /* resize: vertical; */
+  width: 100%;
+  max-width: 250px;
+  margin: 20px;
+}
+.main-footer{
+   background-color: black;
+   color: white;
+}
+.main-footer  i{
+    font-size: 34px;
+    margin: 15px;
+    color: white;
+}
+.main-footer h3{
+    font-size: 40px;
+}
+.main-footer p{
+    margin: 20PX;
+    font-size: 20px;
+}
+.inside-footer h2{
+    font-size: 34px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 992px){
+
+   .nav-bar ul {
+        position: static;
+    list-style: none;
+    gap: 30px;
+    display: flex;
+   flex-direction: row;
+   text-align: left;
+    background-color: transparent;
+}
+.nav-bar ul li {
+color: black;
+padding: 0;
+display: inline-block;
+}
+.nav-bar h1{
+    font-size: 42px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-icon {
+    display: none;
+}
+    .about {
+    background: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.about img{
+    background-color: rgb(240 209 201 / 32%); 
+    width: 70%;
+    padding: 110px 130px;
+    height: 70%;
+}
+.about h2{
+    font-size: 50px;
+  margin-top: 60px;
+}
+.about p{
+    font-size: 14px;
+    text-align: start;
+    margin: 0 auto;
+    line-height: 1.5;
+    width: 410px;
+   padding: 20px ;
+   font-weight: 100;
+}
+newsletter{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    padding:  70px;
+}
+#newsletter-form input[type="text"],
+#newsletter-form input[type="email"] {
+ padding: 1px;
+  margin: 30px;
+  font-size: 30px;
+  width: 300px;
+ 
+}
+#newsletter-form input[type="email"] {
+  width: 800px;
+}
+#newsletter-form button {
+    width: 300px;
+    padding: 10px;
+  
+}
+.main-footer {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.footer{
+    margin: 60px;
+}
+.newsletter-form textarea{
+   max-width: 600px;
+}
+
+
+}
