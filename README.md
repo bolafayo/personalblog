@@ -10,7 +10,7 @@ A simple yet interactive personal blog application where users can read posts, l
 
 https://todolist-five-xi-20.vercel.app/
 ---
-##Features
+##**Features**
 
 - **Dynamic Date Rendering** (using JavaScript)  
 - **Comment System** with delete option  
@@ -22,7 +22,7 @@ https://todolist-five-xi-20.vercel.app/
 
 ---
 
-## 💻 Technologies
+**Technologies**
 - HTML5  
 - CSS3 / Flexbox  
 - JavaScript (DOM Manipulation, LocalStorage)  
@@ -33,8 +33,8 @@ https://todolist-five-xi-20.vercel.app/
 
 ### Installation
 
-1. **Fork the repository**  
-2. **Clone your forked repo**  
+   **Fork the repository**  
+   **Clone your forked repo**  
 
 ```bash
 git clone https://github.com/your-username/personal-blog.git
@@ -45,7 +45,7 @@ cd personal-blog
 
 -Contributions are always welcome!
 
-- Want to contribute? Here’s how:
+ -Want to contribute? Here’s how:
 
 -Fork the repository
 
@@ -59,7 +59,7 @@ cd personal-blog
 ---
 ##**License**
 
--This project is licensed under the MIT License
+This project is licensed under the MIT License
 ---
 **Lessons Learned**
 
