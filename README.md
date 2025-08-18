@@ -41,7 +41,7 @@ git clone https://github.com/your-username/personal-blog.git
 cd personal-blog
 ```
 
-##Contributing
+##**Contributing**
 
 -Contributions are always welcome!
 
@@ -55,13 +55,13 @@ cd personal-blog
 
 -Push to the branch (git push origin feature-name)
 
--Open a Pull Request
+- open a Pull Request
 ---
 ##**License**
 
-This project is licensed under the MIT License
+- This project is licensed under the MIT License
 ---
-**Lessons Learned**
+##**Lessons Learned**
 
 -DOM manipulation with JavaScript
 
