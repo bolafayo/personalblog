@@ -2,11 +2,11 @@
 
 A simple yet interactive personal blog application where users can read posts, leave comments, like content, share posts, and subscribe to a newsletter. Designed with clean UI/UX and powered by **HTML, CSS, and JavaScript**.
 
-##Author
+##**Author**
 
  https://www.github.com/https://github.com/bolafayo
 
-👉 Recipe Website Demo
+👉 **Recipe Website Demo**
 
 https://todolist-five-xi-20.vercel.app/
 ---
@@ -22,7 +22,7 @@ https://todolist-five-xi-20.vercel.app/
 
 ---
 
-**Technologies**
+##**Technologies**
 - HTML5  
 - CSS3 / Flexbox  
 - JavaScript (DOM Manipulation, LocalStorage)  
@@ -55,7 +55,9 @@ cd personal-blog
 
 -Push to the branch (git push origin feature-name)
 
-- open a Pull Request
+-open a Pull Request
+
+
 ---
 ##**License**
 
