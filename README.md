@@ -4,7 +4,7 @@ A simple yet interactive personal blog application where users can read posts, l
 
 ##Author
 
-Bolade Olufayo – @Boladeolufayo
+ https://www.github.com/https://github.com/bolafayo
 
 👉 Recipe Website Demo
 
@@ -40,7 +40,8 @@ https://todolist-five-xi-20.vercel.app/
 git clone https://github.com/your-username/personal-blog.git
 cd personal-blog
 
-Contributing
+
+##Contributing
 
 Contributions are always welcome!
 
