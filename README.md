@@ -8,7 +8,7 @@ A simple yet interactive personal blog application where users can read posts, l
 
 👉 **Recipe Website Demo**
 
-https://todolist-five-xi-20.vercel.app/
+https://personalblog-one-beige.vercel.app/
 ---
 ##**Features**
 
